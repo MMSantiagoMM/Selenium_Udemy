@@ -9,12 +9,15 @@ public class Test1 {
     public void myFirst(){
         //WebDriver driver = new ChromeDriver();
         //WebDriver driver1 = new FirefoxDriver();
-        System.setProperty("webDriver.chrome.driver","C:\\Users\\s.mosquera\\Documents\\Selenium\\selenium_1\\src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webDriver.chrome.driver","C:\\Users\\s.mosquera\\Documents\\Selenium\\" +
+                "selenium_1\\src\\main\\resources\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://rahulshettyacademy.com/");
         String title = driver.getTitle();
+        String url = driver.getCurrentUrl();
         System.out.println(title);
+        System.out.println(url);
 
 
     }
