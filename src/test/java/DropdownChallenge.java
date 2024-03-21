@@ -43,17 +43,6 @@ public class DropdownChallenge {
 
         System.out.println(text);
 
-
-
-
-
-
-
-
-
-
-
-
     }
 
 
