@@ -42,6 +42,9 @@ public class MultipleWindows {
         FileUtils.copyFile(file,new File("C:/Users/s.mosquera/Documents//screenshot.png"));
 
 
+        System.out.println(name.getRect().getDimension().getHeight());
+
+
 
 
 
